@@ -1,10 +1,9 @@
-// components/Button.tsx
 import React from 'react'
 
-interface ButtonProps {
+type ButtonProps =  {
   onClick: () => void
   disabled: boolean
-  children: React.ReactNode // Type for children prop
+  children: React.ReactNode
 }
 
 const Button: React.FC<ButtonProps> = ({ onClick, disabled, children }) => {

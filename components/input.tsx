@@ -1,7 +1,6 @@
-// components/Input.tsx
 import React from 'react'
 
-interface InputProps {
+type InputProps =  {
   value: string
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
 }

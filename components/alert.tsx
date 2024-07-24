@@ -1,7 +1,6 @@
-// components/Alert.tsx
 import React from 'react'
 
-interface AlertProps {
+type AlertProps  = {
   message: string
   onClose: () => void
 }

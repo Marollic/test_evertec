@@ -6,8 +6,8 @@ import './globals.css'
 const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Prompt Expert',
-  description: 'AI Platform',
+  title: 'Evertec',
+  description: 'Test',
 }
 
 export default async function RootLayout({
