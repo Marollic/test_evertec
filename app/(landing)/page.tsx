@@ -30,7 +30,7 @@ const LandingPage = () => {
       <Button onClick={handleButtonClick} disabled={!inputValue}>
         Show Alert
       </Button>
-      {showAlert && <Alert message="This is an alert!" onClose={handleCloseAlert} />}
+      {showAlert && <Alert message={`This is an alert! | ${inputValue}`} onClose={handleCloseAlert} />}
     </div>
     </div>
    );
